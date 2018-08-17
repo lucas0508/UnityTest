@@ -1,0 +1,25 @@
+<WordsXml>
+  <WordType type="Color">
+    <Words id="0">
+      <word>Blue</word>
+    </Words>
+    <Words id="1">
+      <word>Green</word>
+    </Words>
+    <Words id="2">
+      <word>Indigo</word>
+    </Words>
+    <Words id="3">
+      <word>Orange</word>
+    </Words>
+    <Words id="4">
+      <word>Purple</word>
+    </Words>
+    <Words id="5">
+      <word>Red</word>
+    </Words>
+    <Words id="6">
+      <word>Yellow</word>
+    </Words>
+  </WordType>
+</WordsXml>
