@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="580px"
+        android:layout_height="324px"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160px">
+
+            <TextView
+                android:id="@+id/common_dialog_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:lineSpacingExtra="22px"
+                android:textSize="36px" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="420px"
+            android:layout_height="1px"
+            android:layout_marginTop="160px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line"
+            android:layout_marginBottom="10px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:focusable="true"
+                android:nextFocusRight="@+id/common_dialog_confrim"
+                android:layout_marginLeft="40px"
+                android:id="@+id/common_dialog_cancle"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher_round"
+                android:gravity="center"
+                android:textSize="34px" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:nextFocusLeft="@+id/common_dialog_cancle"
+                android:focusable="true"
+                android:layout_marginRight="40px"
+                android:id="@+id/common_dialog_confrim"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_launcher"
+                android:gravity="center"
+                android:textSize="34px" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
